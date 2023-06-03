@@ -47,7 +47,7 @@ article .ubicacion-puntuacion{
     display: flex;
     justify-content: space-between;
 }
-article .descripcion{ color: green;}
+article .descripcion{ color: rgb(9, 76, 177);}
 article .fecha {color: aquamarine;}
 article .precio {font-weight:800;}
 
