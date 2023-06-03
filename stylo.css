@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header{
+    background-color: bisque;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5% ;
+}
+header .logo img{
+    width: 80px;
+    height: auto;
+}
+header .nav-link{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 400px;
+}
+
+header .nav-link li {padding: 0 3%;}
+
+header .nav-link li a { font-weight: 700; text-decoration: none; color: black; }
+
+main{margin: 80px;}
+
+section{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+article{ width: 270px;}
+article h6{font-size: 16px;}
+article img{width: 270px; height: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+article .ubicacion-puntuacion{
+    display: flex;
+    justify-content: space-between;
+}
+article .descripcion{ color: green;}
+article .fecha {color: aquamarine;}
+article .precio {font-weight:800;}
+
