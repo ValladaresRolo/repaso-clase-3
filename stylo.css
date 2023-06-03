@@ -79,5 +79,6 @@ article .fecha {
 }
 
 article .precio {
+    color: red;
     font-weight: 800;
 }
